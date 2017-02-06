@@ -3,6 +3,7 @@ import os
 
 # Link to the UIUC Car Database
 # http://l2r.cs.uiuc.edu/~cogcomp/Data/Car/CarData.tar.gz
+os.system("mkdir ../data/dataset")
 dataset_url = "http://l2r.cs.uiuc.edu/~cogcomp/Data/Car/CarData.tar.gz"
 dataset_path = "../data/dataset/CarData.tar.gz"
 
